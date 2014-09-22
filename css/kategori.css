@@ -1,0 +1,28 @@
+@import url("reset.css");
+ ul,li {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font: 14px Arial;
+ }
+#text{display:block;height:7px}
+#kategori {position:relative;margin-top:20px;width:90%;border:2px solid #ddd;height:250px;float:left;display:block}
+#kategori  ul{position:relative;width:50%;margin-left:30px; color:green}
+ul.anasayfa li>ul>li>a{color:red}
+ul.anasayfa li>a{color:green}
+#kategori  ul li{width:300px;font:14px Arial italic;position:relative;margin-top:5px;}
+
+
+#alt_kategori {position:relative;margin-top:20px;width:90%;border:2px solid #ddd;height:300px;float:left;}
+#alt_kategori button{background: #333; padding: 3px 6px; color: #F7E3F6; cursor: pointer; border-radius: 3px;margin-top:20px;width:100px}
+#alt_kategori  ul{position:relative;width:50%;margin-left:30px}
+#alt_kategori  ul span{width:80%;font:17px Arial bold;margin-top:20px;display:block}
+#alt_kategori  ul li{width:300px;font:14px Arial italic;position:relative;margin-top:10px}
+#alt_kategori ul li input {border: 1px solid #ccc; padding: 4px; width: 80%; border-radius: 3px;line-height:30px;border-top-color:#eee; border-left-color:#eee;padding:2px;border-radius:3px}
+#alt_sonuc {background:#f1f1f1; padding:10px;display:none;margin-top:10px}
+#alt_kategori  select{width:70%; padding:5px; border: 1px solid #ddd; border-radius:3px;font:16px Arial bold }
+#alt_kategori ul span{display:block;font:16px Arial bold}
+
+
+
